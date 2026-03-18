@@ -1,0 +1,18 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### application.properties ###
+# Optional: Uncomment the next line if you don't want to push your database password to GitHub
+# src/main/resources/application.properties
