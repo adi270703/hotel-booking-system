@@ -1,18 +1,45 @@
-HELP.md
+# Maven
 target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.class
 
-### Eclipse ###
-.apt_generated
+# IDE
+.idea/
+.settings/
 .classpath
-.factorypath
 .project
-.settings
-.springBeans
-.sts4-cache
+*.iml
+*.iws
+*.ipr
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
 
-### application.properties ###
-# Optional: Uncomment the next line if you don't want to push your database password to GitHub
-# src/main/resources/application.properties
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+*.sql
+
+# Environment
+.env
+.env.local
+
+# Build
+build/
+dist/
+*.pyc
+__pycache__/
+
+# OS
+Thumbs.db
+.DS_Store
